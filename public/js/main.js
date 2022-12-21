@@ -21,3 +21,15 @@ do {
     console.log(j);
     j=j+2;
 } while (j<22);
+
+console.log('');
+console.log('For of');
+
+let tab = [2,3,4,5,6,4,"idriss"]
+
+for (const iterator of tab) {
+    console.log(iterator);
+}
+
+console.log('');
+console.log('For Deux');
