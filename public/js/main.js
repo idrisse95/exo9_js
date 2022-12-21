@@ -59,13 +59,21 @@
 // //     console.log(nbD);
 
 // // switch (true) {
-// //     case nbD==5:
-// //         alert('stop')
+// //     case nbD>6:
+// //         console.log(nbD)
 // //         break;
 
 // //     default:
+        // console.log(('fin'));
+
 // //         break;
 // // }}
+
+
+
+
+
+
 
 
 
@@ -74,18 +82,12 @@
 
 // for (let paire = 0; paire < 11; paire++) {
 //     if (paire % 2 == 0) {
-//         console.log(paire+ 'oui');
+//         console.log(paire);
         
 //     }
-//     else{
-//         console.log(paire+'non paire');
-//     }
+    
     
 // }
-
-
-
-
 
 
 
@@ -115,4 +117,25 @@
 
 // let qstn = +prompt('quel nbr cherche tu?')
 // alert(bon.indexOf(qstn));
+
+// Bonus 2
+
+// console.log('');
+// console.log('BONUS 2');
+
+//  let bon2 = []
+// for (let iB2 = 0; iB2 < 10; iB2++) {
+//     let nbB2 = +prompt('entre 10 chifr')
+//     bon2.push(nbB2);
+// }
+// const sortDesc = (a, b) => b - a;
+// console.log(bon2);
+// if (bon2.sort()) {
+//     console.log('coissant');
+    
+// }
+// else if(bon2.sort(sortDesc)){
+//     console.log('decroi');
+// }
+
 
