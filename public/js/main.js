@@ -82,3 +82,37 @@ for (let paire = 0; paire < 11; paire++) {
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// bonus
+
+console.log('');
+console.log('BONUS');
+
+
+
+let bon = []
+for (let iB = 0; iB < 10; iB++) {
+    let nbB = +prompt('entre 10 chifr')
+    bon.push(nbB);
+   
+    
+}
+alert(bon)
+
+let qstn = +prompt('quel nbr cherche tu?')
+alert(bon.indexOf(qstn));
+
