@@ -51,15 +51,34 @@ for (const iterator of tab) {
 //     alert('c bon')
 // }
 
-for (let nbD = 0; nbD < 10;nbD++) {
+
+// console.log('');
+// console.log('For 6');
+// for (let nbD = 0; nbD < 10;nbD++) {
  
-    console.log(nbD);
+//     console.log(nbD);
 
-switch (true) {
-    case nbD==5:
-        alert('stop')
-        break;
+// switch (true) {
+//     case nbD==5:
+//         alert('stop')
+//         break;
 
-    default:
-        break;
-}}
+//     default:
+//         break;
+// }}
+
+
+
+console.log('');
+console.log('For 7');
+
+for (let paire = 0; paire < 11; paire++) {
+    if (paire % 2 == 0) {
+        console.log(paire+ 'oui');
+        
+    }
+    else{
+        console.log(paire+'non paire');
+    }
+    
+}
