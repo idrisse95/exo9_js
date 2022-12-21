@@ -7,10 +7,10 @@ for (let index = 1; index < 11; index++) {
 console.log('');
 console.log('While');
 
-let i = 10;
-while(i>0){
-    console.log(i);
-    i--;
+let sum = 10;
+while(sum>0){
+    console.log(sum);
+    sum--;
 }
 
 console.log('');
@@ -33,3 +33,20 @@ for (const iterator of tab) {
 
 console.log('');
 console.log('For Deux');
+
+
+for (let sum = 0; sum < 10; sum++) {
+    console.log(sum);
+    sum=sum+sum;
+    
+}
+
+let nb = +prompt('entre un nb pos')
+if (nb<0) {
+ 
+           prompt('entre positif')
+      
+}
+else{
+    alert('c bon')
+}
