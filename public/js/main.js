@@ -31,22 +31,35 @@ for (const iterator of tab) {
     console.log(iterator);
 }
 
-console.log('');
-console.log('For Deux');
+// console.log('');
+// console.log('For Deux');
 
 
-for (let sum = 0; sum < 10; sum++) {
-    console.log(sum);
-    sum=sum+sum;
+// for (let sum = 0; sum < 10; sum++) {
+//     console.log(sum);
+//     sum=sum+sum;
     
-}
+// }
 
-let nb = +prompt('entre un nb pos')
-if (nb<0) {
+// let nb = +prompt('entre un nb pos')
+// if (nb<0) {
  
-           prompt('entre positif')
+//            prompt('entre positif')
       
-}
-else{
-    alert('c bon')
-}
+// }
+// else{
+//     alert('c bon')
+// }
+
+for (let nbD = 0; nbD < 10;nbD++) {
+ 
+    console.log(nbD);
+
+switch (true) {
+    case nbD==5:
+        alert('stop')
+        break;
+
+    default:
+        break;
+}}
